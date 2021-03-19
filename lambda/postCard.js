@@ -26,7 +26,7 @@ exports.handler = async event => {
         "Access-Control-Allow-Origin": "*"
       },
       body: JSON.stringify({ id: id })
-    };
+    }; 
   } catch (exception) {
     console.error(exception);
     response = {
